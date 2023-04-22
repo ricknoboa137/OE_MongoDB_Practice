@@ -42,7 +42,7 @@ Access the database "test"
 use test
 ```
 
-confirm that the data set was importet properly.
+confirm that the data set was imported properly.
 
 ```
 db.movieDetails.count();
@@ -68,9 +68,9 @@ Create queries to find out the requiered information:
 ### How many documents list just these two writers: "Ethan Coen" and "Joel Coen", in that order?
 
 ### How many movies match the following criteria?
-	*The cast includes either of the following actors: "Jack Nicholson", "John Huston".
-	*The viewerRating is greater than 7.
-	*The mpaaRating is "R".
+	* The cast includes either of the following actors: "Jack Nicholson", "John Huston".
+	* The viewerRating is greater than 7.
+	* The mpaaRating is "R".
 
 ### Show the top 5 rated film with the most voted (by imdb) films. Show only title and ratings and votes.
 
