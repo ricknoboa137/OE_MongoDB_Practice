@@ -72,14 +72,14 @@ db.movieDetails.find({genres:{$in:["Comedy"]}}).count();
 # 749
 ```
 
-### How many Western films are exist second among its genres?
+### How many Western films exists among its genres?
 
 ```js
 db.movieDetails.find({"genres.1":"Western"}).count();
 #14
 ```
 
-### How many movies in the movieDetails collection have exactly 1 award wins or 1 award nominations?
+### How many movies in the movieDetails collection have exactly 1 award won or 1 award nominations?
 
 ```js
 db.movieDetails.find({$or: [{"awards.wins":1}, {"awards.nominations":1}]}).pretty();
@@ -94,13 +94,13 @@ db.movieDetails.find({writers: ["Ethan Coen", "Joel Coen"]}).count();
 
 ### How many movies match the following criteria?
 
-* The cast includes either of the following actors: "Jack Nicholson", "John Huston".
+* The cast includes either of the following actors: "Seth MacFarlane".
 * The viewerRating is greater than 7.
 * The mpaaRating is "R".
 
 ```js
 db.movieDetails.find({writers: {$in: ["Seth MacFarlane"]}, viewerRating: {$gt: 7}, mpaaRating: "R"});
-# 0 (?)
+# 0 
 ```
 ### Show the top 5 rated film with the most voted (by imdb) films. Show only title and ratings and votes.
 

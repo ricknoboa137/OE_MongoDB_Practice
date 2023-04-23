@@ -61,15 +61,15 @@ Create queries to find out the requiered information:
 
 ### How many Comedies are in the movieDetails?
 
-### How many Western films are exist second among its genres?
+### How many Western films exist among its genres?
 
-### How many movies in the movieDetails collection have exactly 1 award wins or 1 award nominations?
+### How many movies in the movieDetails collection have exactly 1 award won or 1 award nominations?
 
 ### How many documents list just these two writers: "Ethan Coen" and "Joel Coen", in that order?
 
 ### How many movies match the following criteria?
 
-* The cast includes either of the following actors: "Jack Nicholson", "John Huston".
+* The cast includes either of the following actors: "Seth MacFarlane".
 * The viewerRating is greater than 7.
 * The mpaaRating is "R".
 
