@@ -14,7 +14,7 @@ they can be found in the link:
 (For Windows) Copy the files inside the forlder "bin" into the 
 ```C:\Program Files\MongoDB\Server\x.x\bin```
 
-## Prepare de Database
+## Prepare the Database
 
 In a CMD window on the repository folder (Mongo DB is NOT runing)
 
